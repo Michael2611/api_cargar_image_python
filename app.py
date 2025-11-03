@@ -9,7 +9,7 @@ SFTP_HOST = "4lpes.com"
 SFTP_PORT = 21098
 SFTP_USER = "llpekgwy"
 SFTP_PASS = "Argentina2025*"
-SFTP_PATH = "/home/llpekgwy/public_html/uploads/"
+SFTP_PATH = "/home/llpekgwy/public_html/public/uploads/"
 
 # --------------------- Endpoint para subir imágenes ---------------------
 @app.route('/upload', methods=['POST'])
